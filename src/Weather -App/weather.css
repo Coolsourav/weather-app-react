@@ -1,0 +1,53 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(11, 19, 30);
+  color: #f0f1f1;
+}
+
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  flex-direction: column;
+  background-color: rgb(11, 19, 30);
+}
+.right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 500px;
+  flex-direction: column;
+  padding: 60px 20px;
+  background-color: rgb(11, 19, 30);
+}
+input {
+  background-color: transparent;
+  color: #f0f1f1;
+  border: none;
+  border-bottom: 1px solid #f0f1f1;
+  width: 100%;
+  padding: 5px 15px 5px 0;
+}
+input::placeholder {
+  color: #f0f1f1;
+}
+input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #f0f1f1;
+}
+.umbrella {
+  width: 80%;
+  height: 280px;
+  object-fit: cover;
+}
+.sun{
+    width: 100%;
+    width: 200px;
+    object-fit: cover;
+}
